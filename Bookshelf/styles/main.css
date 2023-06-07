@@ -1,0 +1,36 @@
+.table{
+    display: flex;
+    position: absolute;
+    height: 100%;
+    
+    top: -70%;
+}
+.table img{
+    height: 100%;
+}
+
+.weapon-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.image {
+    height: 450px;
+}
+
+.image img{
+    height: 100%;
+    position: relative;
+    
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: -250px;
+
+    transition: all 2s ease-in-out;
+}
+
+
+
+.image img:hover{
+    transform: translate(0, 600px) rotate(360deg);
+}
